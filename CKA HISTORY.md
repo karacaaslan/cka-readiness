@@ -107,4 +107,11 @@ controlplane ~ ➜  history
    60  kgp
    69  k edit replicaset new-replica-set
    70  k get replicaset
-
+   71  kubectl scale --replicas=2 new-replica-set
+   72  kubectl scale --replicas=2 replicaset/new-replica-set
+   73  k get replicaset
+   74  k get rep
+   75  k get replica
+   76  k get rp
+   77  k get rs
+   78  history
